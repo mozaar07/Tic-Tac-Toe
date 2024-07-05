@@ -114,7 +114,8 @@ const checkWinner = () => {
 
                 setTimeout(() => {
                     showWinner(pos1);
-                }, 2000)
+                }, 1500)
+                return true;
                 // let timeout = setTimeout(showWinner(), 3000);
                 // timeout(showWinner(pos1));
                 // showWinner(pos1);
